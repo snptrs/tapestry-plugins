@@ -1,9 +1,17 @@
 {
-  "inputs": [{
-    "name": "varVideoCount",
-    "type": "choices",
-    "prompt": "Number of Videos",
-    "value": "25",
-    "choices": "5, 10, 25, 50, 100"
-  }]
+  "inputs": [
+    {
+      "name": "varVideoCount",
+      "type": "choices",
+      "prompt": "Number of Videos",
+      "value": "25",
+      "choices": "5, 10, 25, 50, 100"
+    },
+    {
+      "name": "showDescription",
+      "type": "switch",
+      "prompt": "Show video description",
+      "value": "on"
+    }
+  ]
 }
